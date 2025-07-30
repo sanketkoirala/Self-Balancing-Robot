@@ -1,0 +1,26 @@
+# Build output
+Debug/
+targetConfigs/
+
+# Code Composer Studio project files
+*.launches/
+.project
+.settings/
+.ccsproject
+.cproject
+
+# macOS Finder files
+.DS_Store
+
+# Vendor / toolchain–provided files 
+tm4c123gh6pm_startup_ccs.c
+tm4c123gh6pm.cmd
+tm4c123gh6pm.h
+
+
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
